@@ -32,7 +32,9 @@
         ],
       },
       'defines': [
-        'ENABLE_LOGGING=1',
+        'ENABLE_LOGGING=1',,
+        'HAVE_STRUCT_TIMESPEC=1',
+        '_TIMESPEC_DEFINED=1'
       ],
       'cflags': [
         '-w',
